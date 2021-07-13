@@ -1,0 +1,34 @@
+DevOps Training 
+
+GIT Basic Commands
+
+git init
+git config --global user.name"manojkumar.kalidindi"
+git config --global user.email"manojkumar.kalidindi65@gmail.com"
+
+git config --list
+
+touch filename
+ls
+ls -a
+ll
+mkdir gangadhar
+rm gangadhar 
+cd 
+
+
+git status
+git add filename
+git commit -m "any msg"filename{for moving Spec file from staging to local or for modified files moving from workspace to local}
+git log
+git show commit ID
+git add . or git add * or git add -A
+git commit -m "message"{for moving all the files from staging to local}
+git reset HEAD filename
+git reset --soft commitID
+git reset --mixed commitID
+git diff folder/filename
+
+git clone pathofcentralrepositary
+git push
+git pull --rebase
