@@ -32,3 +32,17 @@ git diff folder/filename
 git clone pathofcentralrepositary
 git push
 git pull --rebase
+git log --oneline
+git log -3 {for recent specific number of commits}
+git log --oneline -n
+git log --author=gangadhar
+git log --author=gangadhar --oneline
+git log --author=gangadhar --oneline -3
+git log --since=yy-mm-dd
+git log --until=2021-08-21
+git log --since=yyyy-mm-dd --until=yyyy-mm-dd
+{or}
+git log --after=yyyy-mm-dd --before=yyyy-mm-dd 
+git log --grep="commitmsg"
+git log --filename{ for specific file commit data}
+
