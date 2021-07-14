@@ -15,7 +15,7 @@ ll
 mkdir gangadhar
 rm gangadhar 
 cd 
-
+rm -rf a*{to delete files with letter a}
 
 git status
 git add filename
@@ -45,4 +45,17 @@ git log --since=yyyy-mm-dd --until=yyyy-mm-dd
 git log --after=yyyy-mm-dd --before=yyyy-mm-dd 
 git log --grep="commitmsg"
 git log --filename{ for specific file commit data}
+
+==========================================
+
+git branch{to list branches}
+git branch branchname{create branch}
+git branch -d branchname{to delete branch in locl}
+git push origin -d branchname{to delete branch in central rep}
+git checkout branchname{switch branch}
+git merge branchname  {mereges all files}
+git cherry-pick commitID{for copying specific commit}
+git push origin branchname{for pushing to particular branch}
+or
+git push pathodcentralrepbranch 
 
